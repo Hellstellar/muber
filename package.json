@@ -1,0 +1,26 @@
+{
+  "name": "muber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha --recursive -R min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hellstellar/muber.git"
+  },
+  "author": "sooraj dube",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hellstellar/muber/issues"
+  },
+  "homepage": "https://github.com/Hellstellar/muber#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.7",
+    "nodemon": "^1.18.3",
+    "supertest": "^3.1.0"
+  }
+}
